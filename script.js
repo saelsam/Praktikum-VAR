@@ -1,7 +1,11 @@
 var container = document.querySelector('#container');
-var panorama = new PANOLENS.ImagePanorama('https://live.staticflickr.com/65535/52765301105_198e34e77f_6k.jpg');
-var panorama2 = new PANOLENS.ImagePanorama('https://live.staticflickr.com/65535/52750877528_5517877d33_6k.jpg');
-var panorama3 = new PANOLENS.ImagePanorama('https://live.staticflickr.com/836/41489899742_0d39c51885_6k.jpg');
+// var panorama = new PANOLENS.ImagePanorama('https://live.staticflickr.com/65535/52765301105_198e34e77f_6k.jpg');
+// var panorama2 = new PANOLENS.ImagePanorama('https://live.staticflickr.com/65535/52750877528_5517877d33_6k.jpg');
+// var panorama3 = new PANOLENS.ImagePanorama('https://live.staticflickr.com/836/41489899742_0d39c51885_6k.jpg');
+
+var panorama = new PANOLENS.ImagePanorama('picture1.jpg');
+var panorama2 = new PANOLENS.ImagePanorama('picture2.jpg');
+var panorama3 = new PANOLENS.ImagePanorama('picture3.jpg');
 
 var viewer = new PANOLENS.Viewer({ container: container });
 viewer.add(panorama,panorama2,panorama3);
